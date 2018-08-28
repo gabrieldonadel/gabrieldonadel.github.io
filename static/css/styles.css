@@ -4048,3 +4048,23 @@ blockquote.blockquote-left .parson { font-weight: 600; }
   .sm-p-25-b {padding-bottom: 25%;}
   .sm-p-25-half-b {padding-bottom: 25.5%;}
 }
+.cinquentaPorcento{
+    width: 50%;
+}
+.fotoMinha{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    z-index: -1;
+}
+.relative{
+    position: relative;
+}
+.sobreMim{
+    padding-right: 266px !important;
+    padding-left: 50px !important;
+    max-width: 80%;
+    margin-top: 196px;
+}
