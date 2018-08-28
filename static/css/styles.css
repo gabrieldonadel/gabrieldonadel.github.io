@@ -896,7 +896,7 @@ img {
 }
 
 .about-left p {
-  width: 470px;
+  width: 550px;
   max-width: 100%;
   font-size: 15px;
 }
@@ -4063,8 +4063,17 @@ blockquote.blockquote-left .parson { font-weight: 600; }
     position: relative;
 }
 .sobreMim{
-    padding-right: 266px !important;
+    padding-right: 184px !important;
     padding-left: 50px !important;
     max-width: 80%;
-    margin-top: 196px;
+    margin-top: 94px;
+}
+.tituloSobre{
+    max-width: 36%;
+    margin-top: 35px;
+    padding: 10px 0px 0px 10px !important;
+}
+.tituloSobre .about-left p{
+    width: auto;
+    margin-bottom: 0px;
 }
