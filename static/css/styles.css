@@ -4098,5 +4098,9 @@ blockquote.blockquote-left .parson { font-weight: 600; }
     text-align: center;
     margin: auto;
     width: 50%;
+    
+  }
+  #home .container .row .col{
+    max-width: 50%;
   }
 }
