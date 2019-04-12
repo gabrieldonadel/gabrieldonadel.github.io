@@ -15,6 +15,8 @@
       // When the single page app is loaded further down in this file,
       // the correct url will be waiting in the browser's history for
       // the single page app to route accordingly.
+	  
+	  // Edited by Gabriel Donadel DallAgnol
       (function(l) {
         if (l.search) {
           var q = {};
@@ -25,7 +27,10 @@
           if (q.p !== undefined) {
             console.log(q);
 			alert(q);
-            
+			var nfB = p.substr(p.indexOf("/")+1);
+			var dirB = nfB.substr(0, nfB.indexOf("/")+1);
+			var r = nfB.substr(nfB.indexOf("/"))
+            window.location.href = '/'+dirB+'?p='+r; //relative to domain
           }
         }
       }(window.location))
