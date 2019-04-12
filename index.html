@@ -27,7 +27,7 @@
           if (q.p !== undefined) {
             console.log(q);
 			alert(q);
-			var nfB = p.substr(p.indexOf("/")+1);
+			var nfB = q.substr(q.indexOf("/")+1);
 			var dirB = nfB.substr(0, nfB.indexOf("/")+1);
 			var r = nfB.substr(nfB.indexOf("/"))
             window.location.href = '/'+dirB+'?p='+r; //relative to domain
