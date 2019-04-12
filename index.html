@@ -26,7 +26,7 @@
           });
           if (q.p !== undefined) {
             console.log(q);
-			var nfB = q,p.substr(q.p.indexOf("/")+1);
+			var nfB = q.p.substr(q.p.indexOf("/")+1);
 			var dirB = nfB.substr(0, nfB.indexOf("/")+1);
 			var r = nfB.substr(nfB.indexOf("/"))
             window.location.href = '/'+dirB+'?p='+r; //relative to domain
