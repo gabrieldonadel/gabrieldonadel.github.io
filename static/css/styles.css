@@ -1033,6 +1033,28 @@ img {
   }
 }
 
+
+/*-----------------------------------------
+*  Vish Section
+-----------------------------------------*/
+.section.vish-section{
+  background-color: #ffc000;
+  text-align: center;
+  box-shadow: inset 0px 0px 112px -69px rgba(0,0,0,0.75);
+}
+.section.vish-section img{
+  background-color: transparent;
+}
+
+.section.vish-section img.google-play{
+  width: 100%;
+  max-width: 175px;
+  height: auto;
+}
+#vish-s10{
+  max-width: 230px;
+}
+
 /*-----------------------------------------
 *  Counter Box
 -----------------------------------------*/
