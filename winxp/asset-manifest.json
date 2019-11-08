@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/winxp/static/css/main.c65623f0.chunk.css",
+    "main.js": "/winxp/static/js/main.d0ba59af.chunk.js",
+    "main.js.map": "/winxp/static/js/main.d0ba59af.chunk.js.map",
+    "runtime~main.js": "/winxp/static/js/runtime~main.361da0d9.js",
+    "runtime~main.js.map": "/winxp/static/js/runtime~main.361da0d9.js.map",
+    "static/js/2.316b48d0.chunk.js": "/winxp/static/js/2.316b48d0.chunk.js",
+    "static/js/2.316b48d0.chunk.js.map": "/winxp/static/js/2.316b48d0.chunk.js.map",
+    "index.html": "/winxp/index.html",
+    "precache-manifest.d51d49899e448a057158b6ffbf64b4fe.js": "/winxp/precache-manifest.d51d49899e448a057158b6ffbf64b4fe.js",
+    "service-worker.js": "/winxp/service-worker.js",
+    "static/css/main.c65623f0.chunk.css.map": "/winxp/static/css/main.c65623f0.chunk.css.map",
+    "static/media/all-programs.ico": "/winxp/static/media/all-programs.a48640a2.ico",
+    "static/media/error.wav": "/winxp/static/media/error.199b5352.wav",
+    "static/media/find.svg": "/winxp/static/media/find.cfc00209.svg",
+    "static/media/narrator.ico": "/winxp/static/media/narrator.e23232f0.ico",
+    "static/media/restart.ico": "/winxp/static/media/restart.bfcfd28f.ico",
+    "static/media/restore.ico": "/winxp/static/media/restore.8e8ae78a.ico",
+    "static/media/smile.svg": "/winxp/static/media/smile.33211a17.svg",
+    "static/media/view-info.ico": "/winxp/static/media/view-info.415b027d.ico"
+  }
+}
