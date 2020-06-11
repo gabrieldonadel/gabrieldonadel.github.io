@@ -1788,8 +1788,32 @@ a {
 }
 
 .pb_footer {
-  padding: 5em 0;
+  padding: 3em 0;
 }
+
+.container .row .col-lg {
+  flex-grow: 0;
+}
+.grid-row {
+  justify-content: center;
+  display: grid;
+  column-gap: 250px;
+  grid-template-columns: auto auto;
+}
+@media (max-width: 767px) {
+  .grid-row {
+    grid-template-columns: auto;
+  }
+}
+
+.square {
+  list-style: square;
+}
+
+.pb_footer p {
+  margin: 0;
+}
+
 .pb_footer .list-unstyled li {
   margin-bottom: 10px;
   line-height: 1.5;
