@@ -42,7 +42,7 @@
 }
 
 .navbar.navbar-expand-lg.awake .container .navbar-brand #logo {
-  background-image: url('/dallagnol/assets/images/logo_preta.png');
+  background-image: url('/assets/images/logo_preta.png');
 
   /*background-color: #000;*/
 }
@@ -52,7 +52,7 @@ img#vinte-anos {
   margin: 30px auto 0;
 }
 div#logo {
-  background-image: url('/dallagnol/assets/images/logo_transparente.png');
+  background-image: url('/assets/images/logo_transparente.png');
   max-height: 75px;
   height: 75px;
   width: 105px;
