@@ -9003,3 +9003,15 @@ blockquote.blockquote-left .parson {
     max-width: 50%;
   }
 }
+
+.hide {
+  display: none;
+}
+
+input[type='radio'] + label {
+  margin-bottom: 0;
+}
+
+input[type='radio']:checked + label {
+  font-weight: bold;
+}
