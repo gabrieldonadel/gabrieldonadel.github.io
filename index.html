@@ -811,12 +811,17 @@
 
     <!-- custom -->
     <script>
-      var backgrounds = ['landscape-1920x1000.jpg', 'dark-mountains.jpg']
+      var backgrounds = [
+        '1.jpg',
+        '2.jpg',
+        '3.jpg',
+        '4.jpg'
+      ]
       var randomBackground = backgrounds[new Date().getMilliseconds() % backgrounds.length]
 
       document.getElementById('year').innerHTML = new Date().getFullYear()
       document.getElementById('home').style.backgroundImage =
-        'url(static/img/' + randomBackground + ')'
+        'url(static/img/backgrounds/' + randomBackground + ')'
     </script>
     <script src="static/js/custom.js"></script>
     <script src="style-switcher/style-switcher.js"></script>
