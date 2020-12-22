@@ -101,10 +101,23 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarRyan">
             <ul class="navbar-nav">
               <li><a class="nav-link active" href="#home">Home</a></li>
-              <li><a class="nav-link" href="#aboutus">Sobre Mim</a></li>
-              <li><a class="nav-link" href="#competencias">Competências</a></li>
+              <li><a class="nav-link" href="#aboutus" data-i18n="about-me">Sobre Mim</a></li>
+              <li><a class="nav-link" href="#competencias" data-i18n="skills">Competências</a></li>
               <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
-              <li><a class="nav-link" href="#contact">Contato</a></li>
+              <li><a class="nav-link" href="#contact" data-i18n="contact">Contato</a></li>
+              <li>
+                <div id="lang">
+                  <a class="nav-link">
+                    <input class="hide" type="radio" name="lang" value="en" id="en" checked />
+                    <label for="en">EN</label>
+                  </a>
+                  <span>|</span>
+                  <a class="nav-link">
+                    <input class="hide" type="radio" name="lang" value="pt" id="pt" />
+                    <label for="pt">PT</label>
+                  </a>
+                </div>
+              </li>
             </ul>
           </div>
           <!-- / -->
@@ -119,16 +132,6 @@
     <main>
       <!-- Home Banner Start -->
       <section id="home" class="home-banner gray-bg">
-        <div class="sec-round">
-          <div class="container full-height">
-            <div class="round-item round-item-1"></div>
-            <div class="round-item round-item-2"></div>
-            <div class="round-item round-item-3"></div>
-            <div class="round-item round-item-4"></div>
-            <div class="round-item round-item-5"></div>
-          </div>
-        </div>
-
         <div class="container">
           <div class="row full-screen align-items-center">
             <div class="col col-md-12 col-lg-8 col-xl-6 p-80px-tb perfil">
@@ -137,7 +140,7 @@
             <!-- col -->
             <div class="col col-md-12 col-lg-8 col-xl-6 p-80px-tb">
               <div class="home-text-center theme-after m-50px-t">
-                <h4>Olá, meu nome é</h4>
+                <h4 data-i18n="hi-my-name-is">Olá, meu nome é</h4>
                 <h5 class="font-alt">Gabriel Donadel Dall'Agnol</h5>
                 <p>
                   Software Engineer<br />Graduando de Sistemas de Informação<br />
@@ -211,7 +214,7 @@
           <div class="row justify-content-center m-45px-b md-m-30px-b sm-m-25px-b">
             <div class="col-12 col-md-10 col-lg-7">
               <div class="section-title text-center">
-                <h2 class="font-alt">Minhas Competências</h2>
+                <h2 class="font-alt" data-i18n="my-skills" >Minhas Competências</h2>
                 <p>
                   I design and develop services for customers of all sizes, specializing in creating
                   stylish, modern websites, web services and online stores. My passion is to design
@@ -790,6 +793,8 @@
         <p class="copyright">©<span id="year">2018</span> Donadel. Todos Direitos Reservados</p>
       </div>
     </footer>
+
+    <script type="module" src="static/js/index.js"></script>
 
     <!-- jQuery -->
     <script src="static/js/jquery-3.2.1.min.js"></script>
