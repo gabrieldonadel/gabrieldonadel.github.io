@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://donadel.dev/</loc>
+	<lastmod>2021-04-05T07:02:09+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://donadel.dev/curriculo.pdf</loc>
+	<lastmod>2021-04-05T07:02:09+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+  <loc>http://donadel.dev/ufsc/</loc>
+  <lastmod>2021-04-05T07:02:09+01:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://donadel.dev/ufsc/INE5621/</loc>
+  <lastmod>2021-04-05T07:02:09+01:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://donadel.dev/ufsc/INE5621/artigo-lgpd.html</loc>
+  <lastmod>2021-04-05T07:02:09+01:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://donadel.dev/ads/</loc>
+  <lastmod>2021-04-05T07:02:09+01:00</lastmod>
+	<priority>1.00</priority>
+</url>
+<url>
+  <loc>http://donadel.dev/img-to-html/</loc>
+  <lastmod>2021-04-05T07:02:09+01:00</lastmod>
+	<priority>1.00</priority>
+</url>
+<url>
+  <loc>http://donadel.dev/projects/</loc>
+  <lastmod>2021-04-05T07:02:09+01:00</lastmod>
+	<priority>1.00</priority>
+</url>
+</urlset>
