@@ -152,27 +152,28 @@ $(document).ready(function ($) {
 
   // navigation
   var OnePageNav = function () {
-    $(".smoothscroll[href^='#'], #probootstrap-navbar ul li a[href^='#']").on('click', function (
-      e
-    ) {
-      e.preventDefault()
-      var hash = this.hash,
-        navToggler = $('.navbar-toggler')
-      $('html, body').animate(
-        {
-          scrollTop: $(hash).offset().top,
-        },
-        700,
-        'easeInOutExpo',
-        function () {
-          window.location.hash = hash
-        }
-      )
+    $(".smoothscroll[href^='#'], #probootstrap-navbar ul li a[href^='#']").on(
+      'click',
+      function (e) {
+        e.preventDefault()
+        var hash = this.hash,
+          navToggler = $('.navbar-toggler')
+        $('html, body').animate(
+          {
+            scrollTop: $(hash).offset().top,
+          },
+          700,
+          'easeInOutExpo',
+          function () {
+            window.location.hash = hash
+          }
+        )
 
-      if (navToggler.is(':visible')) {
-        navToggler.click()
+        if (navToggler.is(':visible')) {
+          navToggler.click()
+        }
       }
-    })
+    )
     $('body').on('activate.bs.scrollspy', function () {
       console.log('nice')
     })
@@ -205,4 +206,8 @@ $(document).ready(function ($) {
     }
   }
   ytpPlayer()
+})
+
+$(window).on('load', function () {
+  $('#myModal').modal('show')
 })

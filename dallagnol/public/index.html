@@ -1,457 +1,442 @@
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <title>Dall'Agnol & Dall'Agnol - Advogados Associados</title>
-    <meta name="description" content="Dall'Agnol & Dall'Agnol - Advogados Associados" />
-    <meta name="keywords" content="dallagnol, dall, agnol, advogados, florianopolis" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600|Montserrat:200,300,400"
-      rel="stylesheet"
-    />
+  <title>Dall'Agnol & Dall'Agnol - Advogados Associados</title>
+  <meta name="description" content="Dall'Agnol & Dall'Agnol - Advogados Associados" />
+  <meta name="keywords" content="dallagnol, dall, agnol, advogados, florianopolis" />
 
-    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.css" />
-    <link rel="stylesheet" href="assets/fonts/ionicons/css/ionicons.min.css" />
-    <link rel="stylesheet" href="assets/fonts/law-icons/font/flaticon.css" />
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600|Montserrat:200,300,400"
+    rel="stylesheet" />
 
-    <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css" />
-    <link rel="manifest" href="/manifest.json" />
-    <link rel="stylesheet" href="assets/css/slick-theme.css" />
+  <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.css" />
+  <link rel="stylesheet" href="assets/fonts/ionicons/css/ionicons.min.css" />
+  <link rel="stylesheet" href="assets/fonts/law-icons/font/flaticon.css" />
 
-    <link rel="stylesheet" href="assets/css/helpers.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
-    <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light" id="pb-navbar">
-      <div class="container">
-        <a class="navbar-brand" href="index.html"><div id="logo">&nbsp;</div></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#probootstrap-navbar"
-          aria-controls="probootstrap-navbar"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span><i class="ion-navicon"></i></span>
-        </button>
-        <div class="collapse navbar-collapse" id="probootstrap-navbar">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-about">Quem somos</a></li>
-            <li class="nav-item">
-              <a class="nav-link" href="#section-why-us">Áreas de Atuação</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#section-attorneys">Profissionais</a>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="#section-contact">Localização</a></li>
-          </ul>
+  <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="stylesheet" href="assets/css/slick-theme.css" />
+
+  <link rel="stylesheet" href="assets/css/helpers.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+</head>
+
+<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+  <!-- WhatsApp scam Modal -->
+  <div class="modal hide fade" id="myModal" data-backdrop="false">
+    <div class="scam-modal-wrapper">
+      <div class="scam-modal">
+        <div class="modal-header">
+          <a class="close" onclick="$('#myModal').fadeOut()">×</a>
+        </div>
+        <div class="modal-body">
+          <img src="assets/images/whatsapp-scam.jpeg" style="width: 100%;" />
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="btn btn-primary" onclick="$('#myModal').fadeOut()">Ok</a>
         </div>
       </div>
-    </nav>
-    <!-- END nav -->
+    </div>
+  </div>
 
-    <section
-      class="pb_cover_v1 text-left cover-bg-black cover-bg-opacity-4"
-      style="background-image: url(assets/images/1900x1200_img_7.jpg);"
-      id="section-home"
-    >
+  <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light" id="pb-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <div id="logo">&nbsp;</div>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-navbar"
+        aria-controls="probootstrap-navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="ion-navicon"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="probootstrap-navbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section-about">Quem somos</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section-why-us">Áreas de Atuação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section-attorneys">Profissionais</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#section-contact">Localização</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- END nav -->
+
+  <section class="pb_cover_v1 text-left cover-bg-black cover-bg-opacity-4"
+    style="background-image: url(assets/images/1900x1200_img_7.jpg);" id="section-home">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 order-md-1">
+          <h2 class="heading mb-3">Dall'Agnol<br />& Dall'Agnol</h2>
+          <div class="sub-heading">
+            <p class="mb-5">Advogados Associados</p>
+            <p>
+              <a href="#contato" role="button"
+                class="btn smoothscroll pb_outline-light btn-xl pb_font-13 p-4 rounded-0 pb_letter-spacing-2">Agende uma
+                Consulta</a>
+            </p>
+            <img id="vinte-anos" src="assets/images/20anos.png" alt="Selo de comemoração de 20 anos" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END section -->
+
+  <section class="pb_section pb_section_v1" data-section="about" id="section-about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 pr-md-5 pr-sm-0">
+          <h2 class="mt-0 heading-border-top mb-3 font-weight-normal">Quem somos</h2>
+          <p>
+            Nossa equipe é composta por advogados regularmente inscritos na OAB/SC com vasta
+            experiência de mercado, além de atuação na esfera acadêmica em instituições de ensino
+            superior públicas e privadas da Grande Florianópolis SC, em nível de graduação e
+            pós-graduação.
+          </p>
+          <p>
+            Nosso escritório está localizado em Florianópolis S/C, no bairro Estreito, próximo ao
+            DETRAN-SC, em local de fácil acesso e com estacionamento disponível.
+          </p>
+        </div>
+        <div class="col-lg-7">
+          <div class="images">
+            <img class="img1 img-fluid" src="assets/images/f.jpg" alt="Confiança" />
+            <img class="img2" src="assets/images/g.jpg" alt="transparencia" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END section -->
+
+  <section class="pb_section bg-light">
+    <div class="container">
+      <h2 class="mt-0 mb-4 font-weight-normal text-center">Oferecemos</h2>
+      <div class="row">
+        <div class="col-md">
+          <div class="media pb_media_v2 d-block text-center mb-3">
+            <div class="icon border border-gray rounded-circle d-block mr-3 display-4 mx-auto mb-4">
+              <i class="flaticon text-secondary flaticon-jury"></i>
+            </div>
+            <div class="media-body">
+              <h3 class="mt-0 pb_font-20">Assistência Jurídica<br />Integrada</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="media pb_media_v2 d-block text-center mb-3">
+            <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4">
+              <i class="flaticon text-secondary flaticon-law"></i>
+            </div>
+            <div class="media-body">
+              <h3 class="mt-0 pb_font-20">Atuação Extrajudicial<br />Irrestrita</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="media pb_media_v2 d-block text-center mb-3">
+            <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4">
+              <i class="flaticon text-secondary flaticon-courthouse"></i>
+            </div>
+            <div class="media-body">
+              <h3 class="mt-0 pb_font-20">Atendimento em todas as Instâncias Judiciais</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END section -->
+  <div id="contato">
+    <section class="pb_sm_py_cover text-center cover-bg-black cover-bg-opacity-4"
+      style="background-image: url(assets/images/1900x1200_img_3.jpg);">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-md-6 order-md-1">
-            <h2 class="heading mb-3">Dall'Agnol<br />& Dall'Agnol</h2>
-            <div class="sub-heading">
-              <p class="mb-5">Advogados Associados</p>
-              <p>
-                <a
-                  href="#contato"
-                  role="button"
-                  class="btn smoothscroll pb_outline-light btn-xl pb_font-13 p-4 rounded-0 pb_letter-spacing-2"
-                  >Agende uma Consulta</a
-                >
-              </p>
-              <img
-                id="vinte-anos"
-                src="assets/images/20anos.png"
-                alt="Selo de comemoração de 20 anos"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- END section -->
-
-    <section class="pb_section pb_section_v1" data-section="about" id="section-about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 pr-md-5 pr-sm-0">
-            <h2 class="mt-0 heading-border-top mb-3 font-weight-normal">Quem somos</h2>
-            <p>
-              Nossa equipe é composta por advogados regularmente inscritos na OAB/SC com vasta
-              experiência de mercado, além de atuação na esfera acadêmica em instituições de ensino
-              superior públicas e privadas da Grande Florianópolis SC, em nível de graduação e
-              pós-graduação.
+          <div class="col-md-12">
+            <h2 class="heading mb-3">Contato</h2>
+            <p class="sub-heading mb-5 pb_color-light-opacity-8">
+              Entre em contado conosco agora mesmo<br />
+              contato@dallagnoladvogados.com.br<br />
+              +55 (48) 3028-2778
             </p>
             <p>
-              Nosso escritório está localizado em Florianópolis S/C, no bairro Estreito, próximo ao
-              DETRAN-SC, em local de fácil acesso e com estacionamento disponível.
+              <a target="_blank" rel="noreferrer" href="https://wa.me/554830282778" role="button"
+                class="btn smoothscroll pb_outline-light p-3 rounded-0 pb_font-13 pb_letter-spacing-2"><i
+                  class="fa fa-whatsapp"></i> Whatsapp</a>
             </p>
           </div>
-          <div class="col-lg-7">
-            <div class="images">
-              <img class="img1 img-fluid" src="assets/images/f.jpg" alt="Confiança" />
-              <img class="img2" src="assets/images/g.jpg" alt="transparencia" />
-            </div>
-          </div>
         </div>
       </div>
     </section>
-    <!-- END section -->
+  </div>
+  <!-- END section -->
 
-    <section class="pb_section bg-light">
-      <div class="container">
-        <h2 class="mt-0 mb-4 font-weight-normal text-center">Oferecemos</h2>
-        <div class="row">
-          <div class="col-md">
-            <div class="media pb_media_v2 d-block text-center mb-3">
-              <div
-                class="icon border border-gray rounded-circle d-block mr-3 display-4 mx-auto mb-4"
-              >
-                <i class="flaticon text-secondary flaticon-jury"></i>
-              </div>
-              <div class="media-body">
-                <h3 class="mt-0 pb_font-20">Assistência Jurídica<br />Integrada</h3>
-              </div>
-            </div>
+  <section class="pb_section" data-section="why-us" id="section-why-us">
+    <div class="container">
+      <div class="row justify-content-md-center text-center mb-5">
+        <div class="col-lg-7">
+          <h2 class="mt-0 heading-border-top font-weight-normal">Áreas de Atuação</h2>
+          <p>
+            Somos uma equipe experiente que preza por exelência técnica e atendimento
+            personalizado. Especializada em assessoria consultiva e preventiva, assim como
+            contecioso judicial em todos os graus de jurisdição, tanto para pessoas físicas como
+            jurídicas. Nosso comprometimento com os resultados nos impulsiona continuamente em
+            busca de uma advocacia diferenciada.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="images right">
+            <img class="img1 img-fluid" src="assets/images/d.jpg" alt="Áreas de atuação" />
+            <img class="img2" src="assets/images/h.jpg" alt="Justiça" />
           </div>
-          <div class="col-md">
-            <div class="media pb_media_v2 d-block text-center mb-3">
-              <div
-                class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4"
-              >
-                <i class="flaticon text-secondary flaticon-law"></i>
-              </div>
-              <div class="media-body">
-                <h3 class="mt-0 pb_font-20">Atuação Extrajudicial<br />Irrestrita</h3>
-              </div>
+        </div>
+        <div class="col-lg-5 pl-md-5 pl-sm-0">
+          <div id="exampleAccordion" class="pb_accordion">
+            <div class="item">
+              <a class="pb_font-18">
+                <li class="square">Empresarial</li>
+              </a>
             </div>
-          </div>
-          <div class="col-md">
-            <div class="media pb_media_v2 d-block text-center mb-3">
-              <div
-                class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4"
-              >
-                <i class="flaticon text-secondary flaticon-courthouse"></i>
-              </div>
-              <div class="media-body">
-                <h3 class="mt-0 pb_font-20">Atendimento em todas as Instâncias Judiciais</h3>
-              </div>
+            <div class="item">
+              <a class="pb_font-18">
+                <li class="square">Trabalhista</li>
+              </a>
+            </div>
+            <div class="item">
+              <a class="pb_font-18">
+                <li class="square">Civil</li>
+              </a>
+            </div>
+            <div class="item">
+              <a class="pb_font-18">
+                <li class="square">Família</li>
+              </a>
+            </div>
+            <div class="item">
+              <a class="pb_font-18">
+                <li class="square">Consumerista</li>
+              </a>
+            </div>
+            <div class="item">
+              <a class="pb_font-18">
+                <li class="square">Tributária</li>
+              </a>
+            </div>
+            <div class="item">
+              <a class="pb_font-18">
+                <li class="square">Imobiliária</li>
+              </a>
+            </div>
+            <div class="item">
+              <a class="pb_font-18">
+                <li class="square">Previdenciária</li>
+              </a>
+            </div>
+            <div class="item">
+              <a class="pb_font-18">
+                <li class="square">Ambiental</li>
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- END section -->
-    <div id="contato">
-      <section
-        class="pb_sm_py_cover text-center cover-bg-black cover-bg-opacity-4"
-        style="background-image: url(assets/images/1900x1200_img_3.jpg);"
-      >
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-12">
-              <h2 class="heading mb-3">Contato</h2>
-              <p class="sub-heading mb-5 pb_color-light-opacity-8">
-                Entre em contado conosco agora mesmo<br />
-                contato@dallagnoladvogados.com.br<br />
-                +55 (48) 3028-2778
-              </p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://wa.me/554830282778"
-                  role="button"
-                  class="btn smoothscroll pb_outline-light p-3 rounded-0 pb_font-13 pb_letter-spacing-2"
-                  ><i class="fa fa-whatsapp"></i> Whatsapp</a
-                >
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
-    <!-- END section -->
+  </section>
+  <!-- END section -->
 
-    <section class="pb_section" data-section="why-us" id="section-why-us">
-      <div class="container">
-        <div class="row justify-content-md-center text-center mb-5">
-          <div class="col-lg-7">
-            <h2 class="mt-0 heading-border-top font-weight-normal">Áreas de Atuação</h2>
-            <p>
-              Somos uma equipe experiente que preza por exelência técnica e atendimento
-              personalizado. Especializada em assessoria consultiva e preventiva, assim como
-              contecioso judicial em todos os graus de jurisdição, tanto para pessoas físicas como
-              jurídicas. Nosso comprometimento com os resultados nos impulsiona continuamente em
-              busca de uma advocacia diferenciada.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-7">
-            <div class="images right">
-              <img class="img1 img-fluid" src="assets/images/d.jpg" alt="Áreas de atuação" />
-              <img class="img2" src="assets/images/h.jpg" alt="Justiça" />
-            </div>
-          </div>
-          <div class="col-lg-5 pl-md-5 pl-sm-0">
-            <div id="exampleAccordion" class="pb_accordion">
-              <div class="item">
-                <a class="pb_font-18"><li class="square">Empresarial</li></a>
-              </div>
-              <div class="item">
-                <a class="pb_font-18"><li class="square">Trabalhista</li></a>
-              </div>
-              <div class="item">
-                <a class="pb_font-18"><li class="square">Civil</li></a>
-              </div>
-              <div class="item">
-                <a class="pb_font-18"><li class="square">Família</li></a>
-              </div>
-              <div class="item">
-                <a class="pb_font-18"><li class="square">Consumerista</li></a>
-              </div>
-              <div class="item">
-                <a class="pb_font-18"><li class="square">Tributária</li></a>
-              </div>
-              <div class="item">
-                <a class="pb_font-18"><li class="square">Imobiliária</li></a>
-              </div>
-              <div class="item">
-                <a class="pb_font-18"><li class="square">Previdenciária</li></a>
-              </div>
-              <div class="item">
-                <a class="pb_font-18"><li class="square">Ambiental</li></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- END section -->
-
-    <section
-      class="pb_section bg-light bg-image with-overlay"
-      data-section="attorneys"
-      id="section-attorneys"
-      style="background-image: url(assets/images/1900x1200_img_2.jpg);"
-    >
-      <div class="container">
-        <div class="row justify-content-md-center text-center mb-5">
-          <div class="col-lg-7">
-            <h2 class="mt-0 heading-border-top light font-weight-normal text-white">
-              Profissionais
-            </h2>
-            <!-- <p class="text-white">
+  <section class="pb_section bg-light bg-image with-overlay" data-section="attorneys" id="section-attorneys"
+    style="background-image: url(assets/images/1900x1200_img_2.jpg);">
+    <div class="container">
+      <div class="row justify-content-md-center text-center mb-5">
+        <div class="col-lg-7">
+          <h2 class="mt-0 heading-border-top light font-weight-normal text-white">
+            Profissionais
+          </h2>
+          <!-- <p class="text-white">
               Nossa equipe é composta por advogados regularmente inscritos na OAB/SC com vasta
               experiência de mercado, além de atuação na esfera acadêmica em instituições de ensino
               superior públicas e privadas da Grande Florianópolis SC, em nível de graduação e
               pós-graduação.
             </p> -->
-          </div>
         </div>
-        <div class="row">
-          <div class="col-md">
-            <div class="card text-center pb_card_v1 mb-4">
-              <img
-                class="card-img-top rounded-circle w-50 mx-auto"
-                src="assets/images/k.jpg"
-                alt="Rafael Dall'Agnol"
-              />
-              <div class="card-body">
-                <h4 class="card-title mt-0 mb-2">Rafael Dall'Agnol</h4>
-                <h6 class="card-subtitle mb-2">OAB/SC 16925<br />CRA/SC 27685</h6>
-              </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <div class="card text-center pb_card_v1 mb-4">
+            <img class="card-img-top rounded-circle w-50 mx-auto" src="assets/images/k.jpg" alt="Rafael Dall'Agnol" />
+            <div class="card-body">
+              <h4 class="card-title mt-0 mb-2">Rafael Dall'Agnol</h4>
+              <h6 class="card-subtitle mb-2">OAB/SC 16925<br />CRA/SC 27685</h6>
             </div>
           </div>
-          <div class="col-md">
-            <div class="card text-center pb_card_v1 mb-4">
-              <img
-                class="card-img-top rounded-circle w-50 mx-auto"
-                src="assets/images/j.jpg"
-                alt="Gerusa D. Dall'Agnol"
-              />
-              <div class="card-body">
-                <h4 class="card-title mt-0 mb-2">Gerusa D. Dall'Agnol</h4>
-                <h6 class="card-subtitle mb-2">OAB/SC 45241<br />‎</h6>
-              </div>
+        </div>
+        <div class="col-md">
+          <div class="card text-center pb_card_v1 mb-4">
+            <img class="card-img-top rounded-circle w-50 mx-auto" src="assets/images/j.jpg"
+              alt="Gerusa D. Dall'Agnol" />
+            <div class="card-body">
+              <h4 class="card-title mt-0 mb-2">Gerusa D. Dall'Agnol</h4>
+              <h6 class="card-subtitle mb-2">OAB/SC 45241<br />‎</h6>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="pb_section bg-light">
-      <div class="container">
-        <h2 class="mt-0 mb-4 font-weight-normal text-center">
-          Proporcionamos
-        </h2>
-        <div class="grid-row">
-          <div class="col-lg">
-            <div class="media pb_media_v1 mb-5 align-items-center d-flex">
-              <div
-                class="icon border border-gray rounded-circle d-flex mr-3 display-4 text-primary"
-              >
-                <i class="flaticon flaticon-computer-security"></i>
-              </div>
-              <h3 class="mt-0 pb_font-17">Confiança</h3>
+  <section class="pb_section bg-light">
+    <div class="container">
+      <h2 class="mt-0 mb-4 font-weight-normal text-center">
+        Proporcionamos
+      </h2>
+      <div class="grid-row">
+        <div class="col-lg">
+          <div class="media pb_media_v1 mb-5 align-items-center d-flex">
+            <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 text-primary">
+              <i class="flaticon flaticon-computer-security"></i>
             </div>
+            <h3 class="mt-0 pb_font-17">Confiança</h3>
           </div>
-          <div class="col-lg">
-            <div class="media pb_media_v1 mb-5 align-items-center d-flex">
-              <div
-                class="icon border border-gray rounded-circle d-flex mr-3 display-4 text-primary"
-              >
-                <i class="flaticon flaticon-law"></i>
-              </div>
-              <h3 class="mt-0 pb_font-17">Ágilidade</h3>
+        </div>
+        <div class="col-lg">
+          <div class="media pb_media_v1 mb-5 align-items-center d-flex">
+            <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 text-primary">
+              <i class="flaticon flaticon-law"></i>
             </div>
+            <h3 class="mt-0 pb_font-17">Ágilidade</h3>
           </div>
-          <div class="col-lg">
-            <div class="media pb_media_v1 mb-5 align-items-center d-flex">
-              <div
-                class="icon border border-gray rounded-circle d-flex mr-3 display-4 text-primary"
-              >
-                <i class="flaticon flaticon-courthouse"></i>
-              </div>
-              <h3 class="mt-0 pb_font-17">Competência</h3>
+        </div>
+        <div class="col-lg">
+          <div class="media pb_media_v1 mb-5 align-items-center d-flex">
+            <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 text-primary">
+              <i class="flaticon flaticon-courthouse"></i>
             </div>
+            <h3 class="mt-0 pb_font-17">Competência</h3>
           </div>
-          <div class="col-lg">
-            <div class="media pb_media_v1 mb-5 align-items-center d-flex">
-              <div
-                class="icon border border-gray rounded-circle d-flex mr-3 display-4 text-primary"
-              >
-                <i class="flaticon flaticon-jury"></i>
-              </div>
-              <h3 class="mt-0 pb_font-17">Profissionalismo</h3>
+        </div>
+        <div class="col-lg">
+          <div class="media pb_media_v1 mb-5 align-items-center d-flex">
+            <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 text-primary">
+              <i class="flaticon flaticon-jury"></i>
             </div>
+            <h3 class="mt-0 pb_font-17">Profissionalismo</h3>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="pb_section" data-section="contact" id="section-contact">
-      <div class="container">
-        <div class="row justify-content-md-center text-center mb-5">
-          <div class="col-lg-7">
-            <h2 class="mt-0 heading-border-top font-weight-normal">Localização</h2>
-            <p>
-              Nosso escritório está localizado em Florianópolis S/C, no bairro Estreito, próximo ao
-              DETRAN-SC, em local de fácil acesso e com estacionamento disponível.
-            </p>
-          </div>
+  <section class="pb_section" data-section="contact" id="section-contact">
+    <div class="container">
+      <div class="row justify-content-md-center text-center mb-5">
+        <div class="col-lg-7">
+          <h2 class="mt-0 heading-border-top font-weight-normal">Localização</h2>
+          <p>
+            Nosso escritório está localizado em Florianópolis S/C, no bairro Estreito, próximo ao
+            DETRAN-SC, em local de fácil acesso e com estacionamento disponível.
+          </p>
         </div>
+      </div>
 
-        <div class="row">
-          <div class="col-md-8 pr-md-5 pr-sm-0 mb-4">
-            <div class="mapouter">
-              <div class="gmap_canvas">
-                <iframe
-                  id="gmap_canvas"
-                  src="https://maps.google.com/maps?q=Dall'Agnol%20%26%20Dall'Agnol%20Advogados%20Associados&t=&z=19&ie=UTF8&iwloc=&output=embed"
-                  frameborder="0"
-                  scrolling="no"
-                  marginheight="0"
-                  marginwidth="0"
-                  title="Local no Google Maps"
-                ></iframe>
-                Google Maps
-              </div>
-              <style>
-                .mapouter {
-                  position: relative;
-                  text-align: right;
-                }
-                .gmap_canvas {
-                  overflow: hidden;
-                  background: none !important;
-                  padding-top: 56.25%;
-                  position: relative;
-                  -webkit-overflow-scrolling: touch;
-                }
-                .gmap_canvas iframe {
-                  position: absolute;
-                  top: 0;
-                  left: 0;
-                  border: 0;
-                  width: 100%;
-                  height: 100%;
-                }
-              </style>
+      <div class="row">
+        <div class="col-md-8 pr-md-5 pr-sm-0 mb-4">
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe id="gmap_canvas"
+                src="https://maps.google.com/maps?q=Dall'Agnol%20%26%20Dall'Agnol%20Advogados%20Associados&t=&z=19&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Local no Google Maps"></iframe>
+              Google Maps
             </div>
-          </div>
-          <div class="col-md-4">
-            <ul class="pb_contact_details_v1">
-              <li>
-                <span class="text-uppercase">Email</span>
-                <a href="mailto:contato@dallagnoladvogados.com.br"
-                  >contato@dallagnoladvogados.com.br</a
-                >
-              </li>
-              <li>
-                <span class="text-uppercase">Telefone</span>
-                <a href="tel:+554830282778">(0xx48) 3028-2778</a>
-              </li>
-              <li>
-                <span class="text-uppercase">Fax</span>
-                <a href="tel:+554830282778">(0xx48) 3028-2778</a>
-              </li>
-              <li>
-                <span class="text-uppercase">Endereço</span>
-                Sala 403 <br />
-                Rua Alm. Lucas Boiteux, 40<br />
-                Estreito – Florianópolis<br />
-                Santa Catarina – CEP 88070-310
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- END section -->
+            <style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+              }
 
-    <footer class="pb_footer bg-light" role="contentinfo">
-      <div class="container">
-        <div class="row">
-          <div class="col text-center">
-            <p class="pb_font-14">
-              &copy; <span id="year">2020</span> Dall'Agnol & Dall'Agnol Advogados Associados. Todos
-              os direitos reservados.
-            </p>
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                padding-top: 56.25%;
+                position: relative;
+                -webkit-overflow-scrolling: touch;
+              }
+
+              .gmap_canvas iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                border: 0;
+                width: 100%;
+                height: 100%;
+              }
+
+            </style>
           </div>
         </div>
+        <div class="col-md-4">
+          <ul class="pb_contact_details_v1">
+            <li>
+              <span class="text-uppercase">Email</span>
+              <a href="mailto:contato@dallagnoladvogados.com.br">contato@dallagnoladvogados.com.br</a>
+            </li>
+            <li>
+              <span class="text-uppercase">Telefone</span>
+              <a href="tel:+554830282778">(0xx48) 3028-2778</a>
+            </li>
+            <li>
+              <span class="text-uppercase">Fax</span>
+              <a href="tel:+554830282778">(0xx48) 3028-2778</a>
+            </li>
+            <li>
+              <span class="text-uppercase">Endereço</span>
+              Sala 403 <br />
+              Rua Alm. Lucas Boiteux, 40<br />
+              Estreito – Florianópolis<br />
+              Santa Catarina – CEP 88070-310
+            </li>
+          </ul>
+        </div>
       </div>
-    </footer>
+    </div>
+  </section>
+  <!-- END section -->
 
-    <script>
-      document.getElementById('year').innerHTML = new Date().getFullYear()
-    </script>
-    <script src="assets/js/jquery.min.js"></script>
+  <footer class="pb_footer bg-light" role="contentinfo">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <p class="pb_font-14">
+            &copy; <span id="year">2020</span> Dall'Agnol & Dall'Agnol Advogados Associados. Todos
+            os direitos reservados.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
+  <script>
+    document.getElementById('year').innerHTML = new Date().getFullYear()
+  </script>
+  <script src="assets/js/jquery.min.js"></script>
 
-    <script src="assets/js/jquery.waypoints.min.js"></script>
-    <script src="assets/js/jquery.easing.1.3.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/slick.min.js"></script>
 
-    <script src="assets/js/main.js"></script>
-  </body>
+  <script src="assets/js/jquery.waypoints.min.js"></script>
+  <script src="assets/js/jquery.easing.1.3.js"></script>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>
