@@ -1,0 +1,113 @@
+html,
+body {
+  height: 100%;
+  font-family: Roboto;
+}
+
+body {
+  background-color: #060606;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  height: 100%;
+  margin: 0 25%;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.logo {
+  margin: auto 10px auto 0;
+  height: 60px;
+  object-fit: contain;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+:root {
+  --xyz-ease: cubic-bezier(0.26, 2.05, 0.84, 0.38);
+}
+
+.phone-animation {
+  height: 700px;
+  display: grid;
+  place-items: center;
+}
+
+.phone {
+  background: white;
+  padding: 1.5em;
+  border-radius: 2em;
+  position: relative;
+  transform: rotateZ(-45deg);
+  box-shadow: -30px 30px 0px rgba(256, 256, 256, 0.07);
+}
+
+.square-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    'rectangle rectangle'
+    'square square';
+}
+
+.rectangle {
+  padding: 3em;
+  border-radius: 0.8em;
+  margin: 0.6em;
+  background-color: #2c2c2c;
+  grid-area: rectangle;
+}
+
+.square-group .square {
+  padding: 3em;
+  margin: 0.6em;
+  border-radius: 0.8em;
+  background-color: #2c2c2c;
+}
+
+.skeleton-title,
+.skeleton-title2 {
+  padding: 0.6em;
+  margin: 1em 0.3em;
+  border-radius: 0.8em;
+  background-color: #2c2c2c;
+}
+.skeleton-title2 {
+  width: 60%;
+}
+
+.circle-group {
+  display: grid;
+  grid-template-areas:
+    'circle circle circle'
+    'circle circle circle';
+}
+
+.circle-group .square {
+  padding: 2em;
+  margin: 0.6em;
+  border-radius: 50%;
+  background-color: #2c2c2c;
+}
