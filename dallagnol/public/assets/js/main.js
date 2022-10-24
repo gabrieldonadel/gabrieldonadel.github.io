@@ -207,7 +207,3 @@ $(document).ready(function ($) {
   }
   ytpPlayer()
 })
-
-$(window).on('load', function () {
-  $('#myModal').modal('show')
-})
