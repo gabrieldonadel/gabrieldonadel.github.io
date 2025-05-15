@@ -1,0 +1,115 @@
+{
+  "name": "Expo",
+  "subtitle": "All my apps in one place.",
+  "description": "Welcome to my source! Here you'll find all of my apps.",
+  "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
+  "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
+  "website": "https://expo.dev",
+  "tintColor": "#4185A9",
+  "featuredApps": ["com.example.myapp", "com.example.anotherapp"],
+  "apps": [
+    {
+      "name": "Expo Go SDK 52",
+      "bundleIdentifier": "com.example.myapp",
+      "developerName": "Expo",
+      "subtitle": "An awesome app.",
+      "localizedDescription": "Start building projects using web technologies with just your iOS device and your computer. Expo is a developer tool for creating experiences with interactive gestures and graphics using JavaScript and React.",
+      "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/FishApp.png",
+      "tintColor": "#5CA399",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e7/4d/1d/e74d1d2f-59e7-86c1-52ce-5ba44984e141/91890bee-e035-46e6-8cfc-883a955eb178_en-US-iPhone13ProMax-0-Home-portrait_framed.png/230x0w.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/7e/8a/25/7e8a25a7-2219-4a21-2948-9b6effc30ec7/61f0b8dd-cfcd-44d8-af7e-703f0c64e955_en-US-iPhone13ProMax-1-Home-portrait_framed.png/230x0w.webp"
+      ],
+      "versions": [
+        {
+          "version": "1.1",
+          "date": "2022-05-01T09:00:00-08:00",
+          "size": 20000000,
+          "downloadURL": "https://dpq5q02fu5f55.cloudfront.net/Exponent-2.32.18.tar.gz",
+          "localizedDescription": "New features and bug fixes.",
+          "minOSVersion": "12.0"
+        },
+        {
+          "version": "1.0",
+          "date": "2022-03-16T07:00:00-08:00",
+          "size": 10000000,
+          "downloadURL": "https://example.com/myapp_v1.0.ipa",
+          "localizedDescription": "Initial release."
+        }
+      ],
+      "appPermissions": {
+        "entitlements": ["com.apple.security.application-groups", "com.apple.developer.siri"],
+        "privacy": {
+          "NSPhotoLibraryUsageDescription": "App saves photos to your Photo Library.",
+          "NSCameraUsageDescription": "App uses camera to take photos.",
+          "NSMicrophoneUsageDescription": "App uses microphone to record video."
+        }
+      }
+    },
+    {
+      "name": "Expo Go SDK 51",
+      "bundleIdentifier": "com.example.anotherapp",
+      "developerName": "Example Developer",
+      "subtitle": "Another awesome app.",
+      "localizedDescription": "This is another awesome app only available on AltStore.",
+      "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/SharkApp.png",
+      "tintColor": "#3660A2",
+      "screenshots": {
+        "iphone": [
+          "https://example.com/anotherapp_portrait_1.png",
+          "https://example.com/anotherapp_portrait_2.png",
+          {
+            "imageURL": "https://example.com/anotherapp_landscape.png",
+            "width": 2556,
+            "height": 1179
+          }
+        ],
+        "ipad": [
+          {
+            "imageURL": "https://example.com/anotherapp_ipad_portrait.png",
+            "width": 1668,
+            "height": 2388
+          },
+          {
+            "imageURL": "https://example.com/anotherapp_ipad_landscape.png",
+            "width": 2388,
+            "height": 1668
+          }
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.2",
+          "date": "2022-06-21T09:00:00-08:00",
+          "downloadURL": "https://example.com/anotherapp_v1.2.ipa",
+          "localizedDescription": "Bug fixes and performance improvements.",
+          "size": 81514,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.1",
+          "date": "2022-04-15T10:00:00-08:00",
+          "downloadURL": "https://example.com/anotherapp_v1.1.ipa",
+          "localizedDescription": "New features!",
+          "size": 81364,
+          "minOSVersion": "13.0",
+          "maxOSVersion": "16.3"
+        },
+        {
+          "version": "1.0",
+          "date": "2022-02-02T07:00:00-08:00",
+          "downloadURL": "https://example.com/anotherapp_v1.0.ipa",
+          "localizedDescription": "Initial release.",
+          "size": 79821
+        }
+      ],
+      "appPermissions": {
+        "entitlements": ["com.apple.developer.healthkit", "com.apple.developer.game-center"],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "App scans the local network for nearby computers."
+        }
+      }
+    }
+  ],
+  "news": []
+}
